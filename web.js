@@ -1,7 +1,7 @@
 var express = require('express');
 var http = require('http');
 var gzippo = require('gzippo');
-var logger = require('morgan');
+var logger = require('morgan'); // this is causing build to break
 
 var app = express();
 app.use(logger());
